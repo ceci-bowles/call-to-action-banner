@@ -12,9 +12,8 @@ body {
 }
 
 .banner {
-  position: relative;
   max-height: 500px;
-  overflow: hidden;
+  position: absolute;
 }
 
 .img-flex {
@@ -26,14 +25,14 @@ body {
 
 .img-float {
   float: left;
-  max-width: 90%;
+  max-width: 80%;
   padding-right: 1.5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
   position: relative;
+  overflow: hidden;
 }
 
 .banner-content {
-  position: absolute;
   left: 50%;
   bottom: 1.5rem;
   max-width: 45em;
@@ -58,7 +57,7 @@ p {
   font-size: 3rem;
   line-height: 1.4;
   display: inline;
-  font-weight: 900;
+  font-weight: bold 900;
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -77,4 +76,8 @@ p {
 
 .btn-big {
   font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
 }
