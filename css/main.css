@@ -26,7 +26,7 @@ body {
 
 .img-float {
   float: left;
-  max-width: 35%;
+  width: 35%;
   padding-right: 1em;
   padding-left: 1em;
 }
@@ -62,20 +62,19 @@ body {
   font-size: 1.5rem;
   text-align: left;
   margin-bottom: 1em;
-  margin-top: .5em;
+  margin-top: .5rem;
 
 }
 
 .btn {
-  font-family: "Roboto Condensed", sans-serif;
   display: inline-block;
-  padding: .5em .75em;
+  padding: .4em .75em .3em;
   background-color: #333;
   border-radius: 8px;
   border: 3px solid #333;
   color: #fff;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
